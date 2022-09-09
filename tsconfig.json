@@ -1,0 +1,31 @@
+// {
+//   "compilerOptions": {
+//     "target": "es6",
+//     "typeRoots": ["node_modules/@types"],
+//     "moduleResolution": "node",
+//     "module": "commonjs",
+//     "pretty": true,
+//     "sourceMap": true,
+//     "declaration": true,
+//     "allowJs": true,
+//     "noEmit": false,
+//     "esModuleInterop": true,
+//     "resolveJsonModule": true,
+//     "importHelpers": true,
+//     "baseUrl": "src"
+//   },
+//   "include": ["src/**/*.ts", "src/**/*.json", ".env", "src/module.js"],
+//   "exclude": ["node_modules"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"],
+}
